@@ -1,0 +1,20 @@
+.headertop{
+    background-color: lightgray;
+}
+
+
+.headertopin{
+    border: 1px solid red;
+}
+.usermain{
+    color: rgb(2, 140, 199);
+}
+.fabuser{
+    color: rgb(4, 93, 152);
+}
+.instauser{
+    color: crimson;
+}
+.bb{
+    text-align: center;
+}
