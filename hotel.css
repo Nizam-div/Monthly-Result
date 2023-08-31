@@ -202,9 +202,28 @@ section{
     padding: 1rem 0;
     line-height: 1.8;
 }
+.h22 h2{
+    font-size: 15px;
+    color: black;
+    margin-top:-25px;
+    margin-left: 40%;
+    font-weight: 700;
+}
+
+.subjects img{
+    width: 330px;
+    height: 350px;
+    border-radius:7%;
+    border: 2px black solid;
+    margin: 40px 20px 0 10px;
+}
+    
+
+
 .button{
     margin-left: 40%;
 }
+
 .room .slide{
     background: var(--white);
     border: .1rem solid rgba(0, 0, 0, 0.2);
@@ -281,10 +300,12 @@ section{
 }
 .teacher-pic img{
     width: 350px;
-    height: 350px;
+    height: 372px;
     margin-top: 35px;
     border-radius: 50%;
     margin-left:26%;
+    border: 5px solid rgb(16, 4, 148);
+    box-shadow: 0 0 100px 40px  blue;
     
 }
 .teacher-name{
