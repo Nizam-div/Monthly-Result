@@ -76,7 +76,7 @@ section{
 }
 
 .header{
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     right: 0;
@@ -92,9 +92,9 @@ section{
 }
 
 .header img{
-    width: 85px;
-    height: 60px;
-    margin-top: -22px;
+    width: 95px;
+    height: 80px;
+    margin-top: -10px;
 }
 .header .navbar a {
     font-size: 1.7rem;
@@ -367,6 +367,37 @@ section{
     display: inline-block;
 }
 
+.contact-form form {
+    position: relative;
+    
+}
+
+.contact-form form input,
+form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #070707;
+    color: rgb(255, 251, 251);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
+.contact-form .send:hover{
+    background-color: #666;
+}
+.call {
+    font-size: 35px;
+    margin-top: 30px;
+}
 
 .footer{
     background: var(--secondary);
